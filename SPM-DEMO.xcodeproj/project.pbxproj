@@ -34,6 +34,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				OnboardingKit,
 			);
 			target = 49A19CAA2CDF9A9C00A93410 /* SPM-DEMO */;
 		};
