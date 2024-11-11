@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		49A19CE22CE13A2700A93410 /* OnboardingKit in Frameworks */ = {isa = PBXBuildFile; productRef = 49A19CE12CE13A2700A93410 /* OnboardingKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		49A19CC22CDF9AA800A93410 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A19CE22CE13A2700A93410 /* OnboardingKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +97,7 @@
 				49A19CAD2CDF9A9C00A93410 /* SPM-DEMO */,
 				49A19CC42CDF9AA800A93410 /* SPM-DEMOTests */,
 				49A19CCE2CDF9AA800A93410 /* SPM-DEMOUITests */,
+				49A19CE02CE13A2700A93410 /* Frameworks */,
 				49A19CAC2CDF9A9C00A93410 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +110,13 @@
 				49A19CCB2CDF9AA800A93410 /* SPM-DEMOUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		49A19CE02CE13A2700A93410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +139,7 @@
 			);
 			name = "SPM-DEMO";
 			packageProductDependencies = (
+				49A19CE12CE13A2700A93410 /* OnboardingKit */,
 			);
 			productName = "SPM-DEMO";
 			productReference = 49A19CAB2CDF9A9C00A93410 /* SPM-DEMO.app */;
@@ -570,6 +584,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		49A19CE12CE13A2700A93410 /* OnboardingKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OnboardingKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 49A19CA32CDF9A9C00A93410 /* Project object */;
 }
