@@ -27,9 +27,18 @@ class ViewController: UIViewController {
             .init(image: UIImage(named: "imSlide5")!, title: "Save and earn cashback with Deals or eCards")
         ],
                                       tintColor: UIColor(red: 220/255, green: 20/255, blue: 60/255, alpha: 1.0))
+        onboardingKit?.delegate = self
         onboardingKit?.launchOnboarding(rootVC: self)
     }
+}
+
+extension ViewController: OnboardingKitDelegate {
+    func nextButtonDidTap(atIndex index: Int) {
+        print("next button is tapped at index: \(index)")
+    }
     
-    
+    func getStartedButtonDidTap() {
+        print("")
+    }
 }
 
