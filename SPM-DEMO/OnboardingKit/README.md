@@ -1,6 +1,6 @@
-# FavOnboardingKit
+# OnboardingKit
 
-FavOnboardingKit provides an onboarding flow that is simple and easy to implement.
+OnboardingKit provides an onboarding flow that is simple and easy to implement.
 
 ## Contents
 
@@ -17,13 +17,13 @@ FavOnboardingKit provides an onboarding flow that is simple and easy to implemen
 
 
 ## Installation
-There are two ways to use FavOnboardingKit in your project:
+There are two ways to use OnboardingKit in your project:
 - using Swift Package Manager
 - manual install (build frameworks or embed Xcode Project)
 
 ### Swift Package Manager
 
-To integrate FavOnboardingKit into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
+To integrate OnboardingKit into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
 
 ```swift
 dependencies: [
@@ -35,7 +35,7 @@ dependencies: [
 
 ### Manually
 
-If you prefer not to use Swift Package Manager, you can integrate FavOnboardingKit into your project manually.
+If you prefer not to use Swift Package Manager, you can integrate OnboardingKit into your project manually.
 
 ---
 

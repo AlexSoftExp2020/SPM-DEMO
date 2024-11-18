@@ -1,8 +1,8 @@
 import UIKit
 
 public protocol OnboardingKitDelegate: AnyObject {
-    func nextButtonDidTap(atIndex index: Int)
-    func getStartedButtonDidTap()
+  func nextButtonDidTap(atIndex index: Int)
+  func getStartedButtonDidTap()
 }
 
 public class OnboardingKit {
@@ -44,5 +44,5 @@ public class OnboardingKit {
         if rootVC?.presentedViewController == onboardingViewController {
             onboardingViewController.dismiss(animated: true)
         }
-    }
+  }
 }
