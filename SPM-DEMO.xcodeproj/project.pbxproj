@@ -7,34 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498AE0FC2CEBEEDC003B2D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498AE0F12CEBEEDC003B2D8A /* AppDelegate.swift */; };
+		498AE0FD2CEBEEDC003B2D8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498AE0F92CEBEEDC003B2D8A /* SceneDelegate.swift */; };
+		498AE0FE2CEBEEDC003B2D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498AE0FA2CEBEEDC003B2D8A /* ViewController.swift */; };
+		498AE0FF2CEBEEDC003B2D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498AE0F22CEBEEDC003B2D8A /* Assets.xcassets */; };
+		498AE1012CEBEEDC003B2D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498AE0F52CEBEEDC003B2D8A /* LaunchScreen.storyboard */; };
+		498AE1022CEBEEDC003B2D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498AE0F72CEBEEDC003B2D8A /* Main.storyboard */; };
 		49A19CE22CE13A2700A93410 /* OnboardingKit in Frameworks */ = {isa = PBXBuildFile; productRef = 49A19CE12CE13A2700A93410 /* OnboardingKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		498AE0F12CEBEEDC003B2D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		498AE0F22CEBEEDC003B2D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		498AE0F32CEBEEDC003B2D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498AE0F42CEBEEDC003B2D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		498AE0F62CEBEEDC003B2D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		498AE0F82CEBEEDC003B2D8A /* OnboardingKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OnboardingKit; sourceTree = "<group>"; };
+		498AE0F92CEBEEDC003B2D8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		498AE0FA2CEBEEDC003B2D8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49A19CAB2CDF9A9C00A93410 /* SPM-DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPM-DEMO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		49A19CD32CDF9AA800A93410 /* Exceptions for "SPM-DEMO" folder in "SPM-DEMO" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-				OnboardingKit,
-			);
-			target = 49A19CAA2CDF9A9C00A93410 /* SPM-DEMO */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		49A19CAD2CDF9A9C00A93410 /* SPM-DEMO */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				49A19CD32CDF9AA800A93410 /* Exceptions for "SPM-DEMO" folder in "SPM-DEMO" target */,
-			);
-			path = "SPM-DEMO";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		49A19CA82CDF9A9C00A93410 /* Frameworks */ = {
@@ -48,10 +40,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		498AE0FB2CEBEEDC003B2D8A /* SPM-DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				498AE0F12CEBEEDC003B2D8A /* AppDelegate.swift */,
+				498AE0F22CEBEEDC003B2D8A /* Assets.xcassets */,
+				498AE0F32CEBEEDC003B2D8A /* Info.plist */,
+				498AE0F52CEBEEDC003B2D8A /* LaunchScreen.storyboard */,
+				498AE0F72CEBEEDC003B2D8A /* Main.storyboard */,
+				498AE0F82CEBEEDC003B2D8A /* OnboardingKit */,
+				498AE0F92CEBEEDC003B2D8A /* SceneDelegate.swift */,
+				498AE0FA2CEBEEDC003B2D8A /* ViewController.swift */,
+			);
+			path = "SPM-DEMO";
+			sourceTree = "<group>";
+		};
 		49A19CA22CDF9A9C00A93410 = {
 			isa = PBXGroup;
 			children = (
-				49A19CAD2CDF9A9C00A93410 /* SPM-DEMO */,
+				498AE0FB2CEBEEDC003B2D8A /* SPM-DEMO */,
 				49A19CE02CE13A2700A93410 /* Frameworks */,
 				49A19CAC2CDF9A9C00A93410 /* Products */,
 			);
@@ -86,9 +93,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				49A19CAD2CDF9A9C00A93410 /* SPM-DEMO */,
 			);
 			name = "SPM-DEMO";
 			packageProductDependencies = (
@@ -137,6 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498AE0FF2CEBEEDC003B2D8A /* Assets.xcassets in Resources */,
+				498AE1012CEBEEDC003B2D8A /* LaunchScreen.storyboard in Resources */,
+				498AE1022CEBEEDC003B2D8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +154,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498AE0FC2CEBEEDC003B2D8A /* AppDelegate.swift in Sources */,
+				498AE0FD2CEBEEDC003B2D8A /* SceneDelegate.swift in Sources */,
+				498AE0FE2CEBEEDC003B2D8A /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		498AE0F52CEBEEDC003B2D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498AE0F42CEBEEDC003B2D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		498AE0F72CEBEEDC003B2D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498AE0F62CEBEEDC003B2D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		49A19CD52CDF9AA800A93410 /* Debug */ = {
